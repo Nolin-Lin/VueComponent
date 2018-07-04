@@ -1,21 +1,31 @@
 # vue-component
 
-> Components developed with Vue.js
+> 用vue开发的一些小组件
 
-## Build Setup
+## 技术栈
+
+vue2 + vue-loader + webpack + sass + ES6
+
+## 开发
 
 ``` bash
-# install dependencies
-npm install
+git clone https://github.com/Nolin-Lin/VueComponent.git  
 
-# serve with hot reload at localhost:8080
+cd VueComponent
+
+npm install(国内推荐cnpm)  或 yarn(推荐)
+
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+# 目标功能
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- [x] 底部导航栏 -- 完成
+- [ ] 移动端首页装修 -- 未完成
+- [ ] SVG图标 -- 未完成
+- [ ] 编辑器 -- 未完成
+- [ ] Clipboard -- 未完成
+- 其他功能在路上了...
+
+# 说明
+
+>  如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
