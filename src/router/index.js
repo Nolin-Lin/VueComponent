@@ -6,7 +6,9 @@ Vue.use(Router);
 const routes = [
   { path: '/', component: resolve => require(['@/components/botNav'], resolve) },
   { path: '/botNav', component: resolve => require(['@/components/botNav'], resolve) },
-  { path: '/wxNav', component: resolve => require(['@/components/wxNav'], resolve) }
+  { path: '/wxNav', component: resolve => require(['@/components/wxNav'], resolve) },
+  { path: '/svg', component: resolve => require(['@/pages/emoji/index'], resolve) }
+
 ];
 
 export default new Router({

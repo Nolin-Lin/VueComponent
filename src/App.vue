@@ -19,6 +19,9 @@
             <el-menu-item-group>
               <el-menu-item index="wxNav">微信公众号菜单栏</el-menu-item>
             </el-menu-item-group>
+            <el-menu-item-group>
+              <el-menu-item index="svg">SVG</el-menu-item>
+            </el-menu-item-group>
           </el-submenu>
         </el-menu>
       </el-col>
