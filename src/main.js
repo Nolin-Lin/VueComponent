@@ -1,11 +1,15 @@
 import Vue from 'vue';
+
 /* element-ui */
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+
 /* vue-awesome */
 import 'vue-awesome/icons';
 import Icon from 'vue-awesome/components/Icon';
-import './icons'; // icon
+
+import './icons'; // SVG
+
 import App from './App';
 import router from './router';
 
